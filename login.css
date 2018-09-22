@@ -1,0 +1,113 @@
+html {
+  background: url('https://media.giphy.com/media/1xjX9V9fohLVyFCZVv/giphy.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: verdana, sans-serif;
+}
+.header {
+  color: white;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  margin-right: 1em;
+}
+.header h3 {
+  margin-left: 2em;
+  font-size: 2em;
+  font-family: serif;
+}
+.header nav {
+  width: 50%;
+}
+.header nav ul {
+  display: flex;
+  align-content: center;
+  width: 50%;
+  justify-content: space-between;
+}
+.header nav ul li {
+  margin-left: 2em;
+  margin-right: 1em;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header nav ul .together {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  margin-left: 4em;
+  color: white;
+}
+.text .exagerate {
+  font-size: 2em;
+}
+.author {
+  color: white;
+  font-size: 1.2em;
+  margin-right: 3em;
+}
+.form {
+  margin-left: 30%;
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2em;
+  border-radius: 5px;
+}
+.form div {
+  width: 90%;
+  margin-left: 1em;
+}
+.form .extend {
+  width: 100%;
+  height: 2em;
+  border-radius: 5px;
+  border-style: none;
+}
+.form .extend:focus {
+  box-shadow: 20px blue;
+}
+.form .test {
+  display: flex;
+  justify-content: space-between;
+}
+.form .test .gender {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  margin-left: 2em;
+}
+.form .required {
+  font-size: 0.5em;
+  color: red;
+}
+.form .button {
+  text-align: center;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #3d92d8;
+  text-decoration: none;
+  color: black;
+  margin-top: 3em;
+  width: 20%;
+  margin-left: 35%;
+  cursor: pointer;
+  color: white;
+}
+.form .error {
+  color: red;
+  text-align: center;
+  background-color: lightcoral;
+  border-color: red;
+  border-radius: 5px;
+}
